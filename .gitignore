@@ -1,24 +1,23 @@
-# Compiled Object files
-*.o
-*.obj
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Compiled Static libraries
-*.a
-*.lib
+# testing
+/coverage
 
-# Executables
-*.exe
+# production
+/build
 
-# DUB
-.dub
-docs.json
-__dummy.html
-docs/
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Code coverage
-*.lst
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

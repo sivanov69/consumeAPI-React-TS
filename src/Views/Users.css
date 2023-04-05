@@ -1,0 +1,12 @@
+.user-collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.user-collapse .ant-collapse-item {
+
+}
+
+.user-collapse .ant-collapse-item .ant-collapse-header-text {
+    color: red;
+}
