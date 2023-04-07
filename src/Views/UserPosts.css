@@ -1,0 +1,12 @@
+.user-posts {
+    margin: 0 auto;
+    padding: 10% 0;
+    width: 600px;
+}
+.user-posts .ant-collapse {
+    width: 653px;
+}
+
+.user-posts .ant-space-item {
+    width: 653px;
+}

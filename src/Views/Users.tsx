@@ -27,9 +27,14 @@ const Users = () => {
     }
   }, [users]);
   return (
-    <Row className="user-collapse">
-      <Col span={8}>{isLoading ? <p>Loading</p> : <UserPanel users={users}/>}</Col>
-    </Row>
+    <section className="main">
+      <h1>Welcome to our database</h1>
+      <Row className="user-collapse">
+        <Col span={8}>
+          {isLoading ? <p>Loading</p> : <UserPanel users={users} />}
+        </Col>
+      </Row>
+    </section>
   );
 };
 

@@ -1,13 +1,15 @@
+.main {
+    flex: 1;
+}
+
+.main h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
 .user-collapse{
     display: flex;
     flex: 1;
     justify-content: center;
-}
-
-.user-collapse .ant-collapse-item {
-
-}
-
-.user-collapse .ant-collapse-item .ant-collapse-header-text {
-    color: red;
 }
